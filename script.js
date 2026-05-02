@@ -200,3 +200,58 @@
 // function decrease() {
 //     counter.innerText--
 // }
+
+// CHAPTER 49 to 52
+
+// Question # 1
+// var firstName = document.getElementById("firstName")
+// var lastName = document.getElementById("lastName")
+// var email = document.getElementById("email")
+// var password = document.getElementById("password")
+
+// function getValues(e) {
+//     e.preventDefault()
+//     if (firstName.value.trim() == "" || lastName.value.trim() == "" || email.value.trim() == "" || password.value.trim() == "") {
+//         alert("All fields are required")
+//     } else {
+//         console.log("First name:", firstName.value)
+//         console.log("Last name:", lastName.value)
+//         console.log("Email:", email.value)
+//         console.log("Password:", password.value)
+//     }
+// }
+
+// Question # 2
+// var text = document.getElementById("text")
+// var expand = document.getElementById("expand")
+// var shortText = text.innerText.slice(0, 300)
+// var fullText = text.innerText
+// text.innerText = shortText
+
+
+// function expandText() {
+//     if (expand.innerText == "... See more") {
+//         text.innerText = fullText
+//         expand.innerText = "... See less"
+//     } else {
+//         text.innerText = shortText
+//         expand.innerText = "... See more"
+//     }
+// }
+
+// Question # 3
+// var studentNameInput = document.getElementById("studentNameInput")
+// var rollNoInput = document.getElementById("rollNoInput")
+// var studentName = document.getElementById("studentName")
+// var studentRollno = document.getElementById("studentRollno")
+
+// function addStudent(e) {
+//     e.preventDefault()
+//     if (studentNameInput.value.trim() == "" || rollNoInput.value.trim() == "") {
+//         alert("All fields are required")
+//     } else {
+//         Stuent3.style.display = "block"
+//         studentName.innerText = studentNameInput.value
+//         studentRollno.innerText = rollNoInput.value
+//     }
+// }
